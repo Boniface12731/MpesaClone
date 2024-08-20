@@ -3,7 +3,7 @@ const app  =   express();
 const {createToken} = require("./controller/token");
 const tokenRoute = require("./routing/token");
 
-app.listen(5000, () => {
+app.listen(6000, () => {
     console.log("Server  is  running nicely");
 });
 
